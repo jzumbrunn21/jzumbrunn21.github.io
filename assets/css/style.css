@@ -575,11 +575,6 @@ section {
   display: flex;
 }
 
-.portfolio-wrap img {
-  width: 200px;
-  height: 200px;
-}
-
 .portfolio .portfolio-wrap::before {
   content: "";
   background: rgba(255, 255, 255, 0.5);
