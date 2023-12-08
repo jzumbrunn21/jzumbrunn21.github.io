@@ -601,7 +601,7 @@ section {
   z-index: 3;
   position: absolute;
   transition: all ease-in-out 0.3s;
-  display: flex;
+  display: flex-end;
   justify-content: center;
 }
 
