@@ -530,6 +530,10 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+.portfolio {
+  display: flex;
+  justify-content: space-evenly;
+}
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -595,7 +599,7 @@ section {
   position: absolute;
   transition: all ease-in-out 0.3s;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a {
