@@ -530,10 +530,11 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
-.portfolio {
+.portfolio-container aos-init aos-animate {
   display: flex;
   justify-content: space-evenly;
 }
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
