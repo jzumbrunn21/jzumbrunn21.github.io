@@ -531,7 +531,6 @@ section {
 # Portfolio
 --------------------------------------------------------------*/
 
-
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -574,6 +573,11 @@ section {
   overflow: hidden;
   z-index: 1;
   display: flex;
+}
+
+.portfolio-wrap img {
+  width: 200px;
+  height: 200px;
 }
 
 .portfolio .portfolio-wrap::before {
